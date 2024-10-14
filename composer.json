@@ -19,7 +19,7 @@
     "unclecheese/display-logic": "~2.0 || ^3",
     "sminnee/silverstripe-apikey": "dev-pull-ss5",
     "symbiote/silverstripe-grouped-cms-menu": "^4",
-    "firebase/php-jwt": "*",
+    "firebase/php-jwt": "^5.5",
     "guzzlehttp/guzzle": "^7.0"
   },
   "repositories": [
