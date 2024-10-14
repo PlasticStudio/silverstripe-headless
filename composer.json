@@ -13,15 +13,21 @@
     }
   ],
   "require": {
-    "silverstripe/cms": "^4.4",
-    "silverstripe/graphql": "^4",
+    "silverstripe/cms": "^4.4 || ^5",
+    "silverstripe/graphql": "^4 || ^5",
     "silverstripe/cms-events": "*",
-    "unclecheese/display-logic": "~2.0",
-    "sminnee/silverstripe-apikey": "dev-master",
+    "unclecheese/display-logic": "~2.0 || ^3",
+    "sminnee/silverstripe-apikey": "dev-feature/update",
     "symbiote/silverstripe-grouped-cms-menu": "^4",
     "firebase/php-jwt": "^5.4",
     "guzzlehttp/guzzle": "^7.0"
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/PlasticStudio/silverstripe-apikey.git"
+    }
+  ],
   "autoload": {
     "psr-4": {
       "SilverStripe\\Headless\\": "src/"
