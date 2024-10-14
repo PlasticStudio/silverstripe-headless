@@ -17,7 +17,7 @@
     "silverstripe/graphql": "^4 || ^5",
     "silverstripe/cms-events": "*",
     "unclecheese/display-logic": "~2.0 || ^3",
-    "sminnee/silverstripe-apikey": "dev-feature/update",
+    "sminnee/silverstripe-apikey": "dev-pull-ss5",
     "symbiote/silverstripe-grouped-cms-menu": "^4",
     "firebase/php-jwt": "^5.4",
     "guzzlehttp/guzzle": "^7.0"
@@ -25,7 +25,7 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/PlasticStudio/silverstripe-apikey.git"
+      "url": "https://github.com/mediasuitenz/silverstripe-apikey.git"
     }
   ],
   "autoload": {
