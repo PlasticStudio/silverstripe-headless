@@ -129,9 +129,10 @@ class OutgoingWebhook extends DataObject
     /**
      * @return ValidationResult
      */
-    public function validate()
+    public function validate(): ValidationResult
     {
         $result = parent::validate();
+        
         $url = $this->URL;
         if (!filter_var($url, FILTER_VALIDATE_URL)) {
             $result->addFieldError('URL', 'Please enter a valid URL');
