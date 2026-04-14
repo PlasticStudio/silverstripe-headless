@@ -1,5 +1,5 @@
 {
-  "name": "silverstripedev/silverstripe-headless",
+  "name": "silverstripe/silverstripe-headless",
   "description": "Silverstripe CMS headless features",
   "type": "silverstripe-vendormodule",
   "license": "MIT",
