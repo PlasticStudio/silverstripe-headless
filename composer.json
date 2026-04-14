@@ -1,5 +1,5 @@
 {
-  "name": "PlasticStudio/silverstripe-headless",
+  "name": "silverstripedev/silverstripe-headless",
   "description": "Silverstripe CMS headless features",
   "type": "silverstripe-vendormodule",
   "license": "MIT",
