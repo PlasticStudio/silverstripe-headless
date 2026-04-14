@@ -6,10 +6,10 @@ namespace SilverStripe\Headless\Extensions;
 use SilverStripe\Core\ClassInfo;
 use SilverStripe\GraphQL\Schema\Exception\SchemaBuilderException;
 use SilverStripe\GraphQL\Schema\SchemaBuilder;
-use SilverStripe\ORM\DataExtension;
+use SilverStripe\Core\Extension;
 use SilverStripe\ORM\DataObject;
 
-class DataObjectHashExtension extends DataExtension
+class DataObjectHashExtension extends Extension
 {
     /**
      * @var string

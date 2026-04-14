@@ -5,9 +5,9 @@ namespace SilverStripe\Headless\Extensions;
 
 
 use SilverStripe\CMS\Controllers\ModelAsController;
-use SilverStripe\ORM\DataExtension;
+use SilverStripe\Core\Extension;
 
-class Content404Extension extends DataExtension
+class Content404Extension extends Extension
 {
     /**
      * Prevent the catch-all ModelAsController route from doing anything.

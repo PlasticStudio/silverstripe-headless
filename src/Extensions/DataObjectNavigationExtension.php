@@ -3,12 +3,12 @@
 
 namespace SilverStripe\Headless\Extensions;
 
-use SilverStripe\ORM\ArrayList;
-use SilverStripe\ORM\DataExtension;
+use SilverStripe\Model\List\ArrayList;
+use SilverStripe\Core\Extension;
 use SilverStripe\ORM\DataObject;
 use SilverStripe\ORM\Hierarchy\Hierarchy;
 
-class DataObjectNavigationExtension extends DataExtension
+class DataObjectNavigationExtension extends Extension
 {
     public function getCleanLink(): ?string
     {

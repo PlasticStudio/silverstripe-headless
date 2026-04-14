@@ -5,7 +5,7 @@ namespace SilverStripe\Headless\Extensions;
 
 use SilverStripe\Headless\GraphQL\ModelLoader;
 use SilverStripe\Headless\Services\ChangeTracker;
-use SilverStripe\ORM\DataExtension;
+use SilverStripe\Core\Extension;
 use SilverStripe\ORM\DataObject;
 use SilverStripe\ORM\ManyManyList;
 use SilverStripe\ORM\ManyManyThroughList;
@@ -13,7 +13,7 @@ use SilverStripe\ORM\RelationList;
 use SilverStripe\Versioned\Versioned;
 use ReflectionException;
 
-class DataObjectChangeTrackerExtension extends DataExtension
+class DataObjectChangeTrackerExtension extends Extension
 {
     /**
      * @var bool
