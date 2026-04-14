@@ -15,7 +15,7 @@ use SilverStripe\Forms\TextField;
 use SilverStripe\Headless\Admins\WebhooksAdmin;
 use SilverStripe\ORM\ArrayLib;
 use SilverStripe\ORM\DataObject;
-use SilverStripe\ORM\ValidationResult;
+use SilverStripe\Core\Validation\ValidationResult;
 use SilverStripe\Security\Permission;
 use SilverStripe\Forms\FieldList;
 use SilverStripe\Forms\TabSet;
@@ -132,7 +132,7 @@ class OutgoingWebhook extends DataObject
     public function validate(): ValidationResult
     {
         $result = parent::validate();
-        
+
         $url = $this->URL;
         if (!filter_var($url, FILTER_VALIDATE_URL)) {
             $result->addFieldError('URL', 'Please enter a valid URL');
