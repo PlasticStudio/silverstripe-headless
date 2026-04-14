@@ -13,7 +13,7 @@ use SilverStripe\Forms\GridField\GridField_HTMLProvider;
 use SilverStripe\Headless\Model\OutgoingWebhook;
 use SilverStripe\Headless\Model\PublishQueueItem;
 use SilverStripe\Headless\Services\Publisher;
-use SilverStripe\ORM\SS_List;
+use SilverStripe\Model\List\SS_List;
 
 class PublishButton implements GridField_HTMLProvider, GridField_ActionProvider, GridField_DataManipulator
 {
