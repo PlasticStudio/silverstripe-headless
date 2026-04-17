@@ -7,7 +7,7 @@ modelConfig:
     base_fields:
       ID: ID!
       HashID: String!
-      TypeAncestry: '[[String]]'
+      # TypeAncestry: '[String]' Removed invalid injection type. Was forcing graphql to infer a nested type globally, which was breaking Elemental bulk loading & DataObjectModel creation
       exists: Boolean!
     plugins:
       versioning: false
