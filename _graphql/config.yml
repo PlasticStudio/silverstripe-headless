@@ -17,10 +17,10 @@ modelConfig:
       read:
         plugins:
           filter: true
-          getByLink:
-            after: filter
-            before: paginateList
+          # getByLink:
+          #   after: filter
+          #   before: paginateList
       readOne:
-        plugins:
-          getByLink:
-            after: filter
+        plugins: []
+          # getByLink:
+          #   after: filter
